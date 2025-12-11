@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+<body>
+    <nav id="bar">
+        <ul>
+            <li><button><img src="logo.png" alt="Logo"></button></li>
+            <li><button><img src="home.png" alt="Home"></button></li>
+            <li><button><img src="chat.png" alt="Chat"></button></li>
+            <li><button><img src="stats.png" alt="Stats"/></button></li>
+            <li><button><img src="users.png" alt="Users"></button></li>
+            <li><button><img src="settings.png" alt="Settings"/></button></li>
+        </ul>
+    </nav>
+    <nav id="top-bar">
+        <input type="text" placeholder="Search">
+        <div class="top-bar-right">
+            <button><img src="notifications.png" alt="Notifications"></button>
+            <button><img src="more.png" alt="More"></button>
+            <button><img src="profile.png" alt="Profile"></button>
+        </div>
+    </nav>
+    <div id="panel">
+       <div id="stats">
+        <div id="downloads" class="stat-card">
+            <div class="stat-header">
+                <div class="badge">
+                    <p id="badge-value">+16%</p>
+                </div>
+                <span class="stat-label">Downloads</span>
+            </div>
+            <div id="stat-value">188,611</div>
+        </div>
+        <div id="orders" class="stat-card">
+            <div class="stat-header">
+                <div class="badge">
+                    <p id="badge-value">+8%</p>
+                </div>
+                <span class="stat-label">Live Orders</span>
+            </div>
+            <div id="stat-value">45,740</div>
+        </div>
+       </div> 
+
+       <div id="highlight">
+           <div class="highlight-content">
+               <h2 class="highlight-title">Episode for Jun 05, 2022</h2>
+               <p class="highlight-subtitle">Published Sep 16, 2022, by Jerry</p>
+               <button class="btn-check">Check it</button>
+           </div>
+           <div class="highlight-img-container"></div>
+       </div>
+       
+           <div class="chart-container">
+               <div class="y-axis">
+                   <span>200</span>
+                   <span>150</span>
+                   <span>100</span>
+                   <span>50</span>
+                   <span>0</span>
+               </div>
+               <div class="bar-group">
+                   <div class="bar-stack">
+                       <div class="bar-segment"></div>
+                       <div class="bar-segment"></div>
+                   </div>
+                   <span class="bar-label">Stoic</span>
+               </div>
+               <div class="bar-group">
+                   <div class="bar-stack">
+                       <div class="bar-segment"></div>
+                       <div class="bar-segment"></div>
+                   </div>
+                   <span class="bar-label">Weekly Show</span>
+               </div>
+               <div class="bar-group">
+                   <div class="bar-stack">
+                       <div class="bar-segment"></div>
+                       <div class="bar-segment"></div>
+                   </div>
+                   <span class="bar-label">Stereo Pro</span>
+               </div>
+               <div class="bar-group">
+                   <div class="tooltip">Downloads <span>238</span></div>
+                   <div class="bar-stack">
+                       <div class="bar-segment"></div>
+                       <div class="bar-segment"></div>
+                   </div>
+                   <span class="bar-label">Run Podcast</span>
+               </div>
+               <div class="bar-group">
+                   <div class="bar-stack">
+                       <div class="bar-segment"></div>
+                       <div class="bar-segment"></div>
+                   </div>
+                   <span class="bar-label">Morning Brew</span>
+               </div>
+           </div>
+       </div>
+
+       <div id="top">
+        <div class="top-header">
+            <button class="top">Top Podcasters</button>
+            <button class="top">Top Episodes</button>
+        </div>
+        <ul class="user-list">
+            <li class="user-item">
+                <img src="avatar1.png">
+                <div class="user-info">
+                    <span class="user-podcast-name">Earth Tones</span>
+                    <span class="user-name">Wade Warren</span>
+                </div>
+                <span class="user-time">2d</span>
+            </li>
+            <li class="user-item">
+                <img src="avatar2.png">
+                <div class="user-info">
+                    <span class="user-podcast-name">Around the World</span>
+                    <span class="user-name">Guy Hawkins</span>
+                </div>
+                <span class="user-time">2d</span>
+            </li>
+            <li class="user-item">
+                <img src="avatar3.png">
+                <div class="user-info">
+                    <span class="user-podcast-name">World of Kids</span>
+                    <span class="user-name">Adam Thorne</span>
+                </div>
+                <span class="user-time">2d</span>
+            </li>
+        </ul>
+       </div>
+    </div>
+</body>
+</html>
